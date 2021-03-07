@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right, green , red,yellow);
+}
+/*=========
+Header Section
+============*/
+header{
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(p.jpg);
+    border-left: 4px dashed rgb(63, 62, 11);
+    border-right: 4px dashed rgb(63, 62, 11);
+    border-radius: 80px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding: 4px 15px;
+    color: #ffffff;
+    border: 1.5px solid #ffffff;
+}
+ul li a:hover{
+    background-color: #ffffff;
+    color: black;
+    transition:  ease 0.56s;
+}
+.menue{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 30%;
+    right: 35%;
+    text-align: center;
+}
+.title h1{
+    font-size: 65px;
+    color: wheat;
+    text-shadow: 4px 3px  2px 5px rgb(161, 116, 33);
+}
+.title h1:hover{
+    transform: rotate(40deg);
+    transition: ease 1s;
+}
+/*=========
+Services Section
+============*/
+.services{
+    width: 100%;
+    background:radial-gradient(rgb(159, 193, 231) , rgb(186, 219, 155), rgb(241, 145, 205));
+    border-left: 4px dashed rgb(63, 62, 11);
+    border-right: 4px dashed rgb(63, 62, 11);
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 200px;
+}
+h1{
+    font-size: 50px;
+    color: rgb(1, 20, 36);
+}
+
+.SerWhole{
+    margin: auto;
+    width: 100%;
+    margin-top: 90px;
+    padding: 30px;
+    
+}
+.ser{
+    width: 30%;
+    float: right;
+    padding: 23px;
+}
+
+/*=========
+About us Section
+============*/
+
+.aboutus{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url(about.jpeg);
+    border-left: 4px dashed rgb(63, 62, 11);
+    border-right: 4px dashed rgb(63, 62, 11);
+    border-radius: 100px;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: auto;
+    
+
+}
+h1{
+    color: white;
+    text-shadow: 2px 3px 4px rgb(239, 243, 8);
+    
+}
+
+.aboutContent{
+    padding-top: 124px;
+    width: 443px;
+    margin-left: 400px;
+}
+.btn{
+    padding: 9px;
+    margin-top: 18px;
+    background-color: rgb(49, 141, 69);
+     color: rgb(202, 202, 179);
+    
+}
+.btn:hover{
+background-color: black;
+color: yellow;
+transform: scaleX(1.3);
+transition: ease 1s;
+}
+
+
+/*========
+Form Section
+===========*/
+
+
+.Form{
+    background:radial-gradient(rgba(211, 180, 95, 0.274),rgba(180, 54, 159, 0.5),rgba(107, 10, 86, 0.5));
+    padding: 86px;
+    border-left: 4px dashed rgb(63, 62, 11);
+    border-right: 4px dashed rgb(63, 62, 11);
+    border-radius: 150px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 43px;
+      color: white;
+      
+}
+.Form0Data{
+    margin-left: 440px;
+    margin-top: 50px;
+    color: yellow;
+    background-color: rgb(63, 56, 56);
+    width: 260px;
+    padding: 39px;
+    border: 3px dashed rgb(47, 124, 224);
+    border-radius: 23px;
+}
+
+.logBtn{
+    padding: 3px;
+    background-color: rgb(253, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid yellow;
+    border-radius: 9px;
+    
+}
+.logBtn:hover{
+    
+    transform: scaleY(2.10);
+    transition: ease 1s;
+}
